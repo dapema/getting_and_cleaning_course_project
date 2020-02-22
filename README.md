@@ -21,16 +21,14 @@ Structure of run_analysis.R
 #######################################################################################
 
 
-#empty Workspace
-
+#empty Workspace  
 rm(list = ls())
 
-#Set working directory
-
+#Set working directory  
 setwd('C:/Users/maasd/Desktop/R_exos/getting_and_cleaning_data')
 
-# Load packages ####
-###################
+# Load packages ####  
+###################  
 library(dplyr)
 
 # Load dataset ####
