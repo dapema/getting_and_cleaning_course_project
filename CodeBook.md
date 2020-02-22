@@ -120,12 +120,12 @@ Jorge L. Reyes-Ortiz, Alessandro Ghio, Luca Oneto, Davide Anguita. November 2012
 OUTPUT DATA
 ===========
 
-merged_dataset.txt : A 10299 by 563 dataset that is the result of merging the test set with the training set. 
+- merged_dataset.txt : A 10299 by 563 dataset that is the result of merging the test set with the training set. 
                      The first column 'subject_ident' identifies the individual (1 to 30). 
                      The second column 'activity_names' identifies the activity that the individual was doing. 
                      Column 3 to column 563 contain various measurements described in the section "Feature Selection".
-final_dataset.txt  : A 10299 by 81 dataset that contains just the measurements related to means and standard deviations (std). 
-avg_dataset.txt    : A 40 by 81 dataset that contains the averages of mean and standard deviations for each subject and activity. 
+- final_dataset.txt  : A 10299 by 81 dataset that contains just the measurements related to means and standard deviations (std). 
+- avg_dataset.txt    : A 40 by 81 dataset that contains the averages of mean and standard deviations for each subject and activity. 
 
 
 
