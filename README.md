@@ -26,9 +26,6 @@ rm(list = ls())
 #Set working directory  
 setwd('C:/Users/maasd/Desktop/R_exos/getting_and_cleaning_data')
 
-#if foler does not exist, create it.   
-if(!file.exists('data')){dir.create('data')}  
-
 # Load packages ####  
 ###################  
 library(dplyr)
