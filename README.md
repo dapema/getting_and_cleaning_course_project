@@ -22,9 +22,11 @@ Structure of run_analysis.R
 
 
 #empty Workspace
+
 rm(list = ls())
 
 #Set working directory
+
 setwd('C:/Users/maasd/Desktop/R_exos/getting_and_cleaning_data')
 
 # Load packages ####
