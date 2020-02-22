@@ -3,15 +3,14 @@ This repository contains files and codes for the: "Getting and Cleaning Data Cou
 
 CONTENTS
 ========
-This repository contains a codebook called CodeBook.md which lists the datasets and variabels that are used in the analysis and the output of the analysis. 
-The file run_analysis.R contains the code that runs the analysis of the assignment. 
-
+This repository contains a codebook called CodeBook.md which lists the datasets and variabels that are used in the analysis and the output of the analysis.    
+The file run_analysis.R contains the code that runs the analysis of the assignment.  
 
 
 Structure of run_analysis.R
 ===========================
 
-1. all relevant data is loaded into the workspace (line 32 to line 69)
+1. all relevant data is loaded into the workspace (line 32 to line 69). The UCI_HAR_Dataset has to be located in a folder called 'data' in your working directory. The structure of the UCI_HAR_Dataset is unchanged from the original.   
 2. Preparing and merging training set and test set (line 70 to line 122)
 3. Extract mean and std observations from the merged (full) dataset (line 128 to line 134)
 4. Create dataset of averages for each individual and activity from previous dataset (line 139 to line 145)
